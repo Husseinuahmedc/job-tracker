@@ -1,7 +1,7 @@
 # Job Tracker API
 
 A **containerized REST API** for tracking jobs, built with **Flask** and **Docker**.  
-This project was **designed and guided using AI-assisted coding** to rapidly create a functional backend.
+This project was **designed and guided using AI-assisted coding 70/30** to rapidly create a functional backend.
 
 ---
 
@@ -29,7 +29,7 @@ This project was **designed and guided using AI-assisted coding** to rapidly cre
 
 ### Run locally
 ```bash
-git clone <repo-url>
+git clone git@github.com:Husseinuahmedc/job-tracker.git
 cd job-tracker
 docker build -t job-tracker .
 docker run -p 5000:5000 job-tracker
